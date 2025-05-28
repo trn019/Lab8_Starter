@@ -8,7 +8,7 @@ class RecipeCard extends HTMLElement {
   
       // Attaches the shadow DOM to this Web Component
       this.attachShadow({ mode: 'open' });
-  
+  c
       // This element will hold our markup once our data is set
       const article = document.createElement('article');
   
